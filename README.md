@@ -24,3 +24,30 @@ This project digitalizes the process of allocating rooms in a hostel based on gr
 2. Install the required Python packages:
    ```bash
    pip install flask pandas flask-cors
+
+3. Run App.py File
+   ```bash
+   python app.py
+###Frontend Setup
+1.Navigate to the frontend directory:
+   ```bash
+    cd frontend
+```
+2.Install the required npm packages:
+   ```bash
+     npm install
+```
+3. Start the React application:
+   ```bash
+   npm start
+
+###Usage
+1.Open your web browser and navigate to http://localhost:3000.
+2.Upload your group and hostel CSV files.
+3.Click on "Upload and Allocate" to process the files and get the allocation result.
+4.Download the resulting allocation CSV file.
+Example Files
+Include example CSV files in your repository for easy testing:
+group.csv
+hotel.csv
+
