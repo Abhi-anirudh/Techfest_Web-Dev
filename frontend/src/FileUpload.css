@@ -1,0 +1,62 @@
+/* FileUpload.css */
+
+.file-upload-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.file-upload-box:hover {
+    border-color: #00f7ff;
+    box-shadow: 0 0 20px #00f7ff;
+}
+
+.file-upload-box h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.file-input-section {
+    margin-bottom: 20px;
+}
+
+.file-input-section p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.file-input-section input[type="file"] {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+.file-upload-box button {
+    background: #282c34;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+.file-upload-box button:hover {
+    background: #00f7ff;
+    color: #282c34;
+}
+
+.file-upload-box a {
+    display: block;
+    margin-top: 30px;
+    color: #00f7ff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
